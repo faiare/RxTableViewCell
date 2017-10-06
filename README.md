@@ -15,8 +15,8 @@ iOS 8.0 or above
 
 ``` swift
 func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! RxTableViewCell
-user.name.asObservable().bind(to: (cell.viewWithTag(10) as! UILabel).rx.text).disposed(by: cell.disposeBag)
+    let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! RxTableViewCell
+    user.name.asObservable().bind(to: (cell.viewWithTag(10) as! UILabel).rx.text).disposed(by: cell.disposeBag)
 }
 ```
 
