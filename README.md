@@ -28,9 +28,7 @@ func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> U
 Add the following to your Cartfile:
 
 ```
-
 github "faiare/RxTableViewCell"
-
 ```
 
 #### Manual Installation
