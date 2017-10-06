@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		DE3853861F87353A00B7C3E1 /* RxTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3853841F87353A00B7C3E1 /* RxTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE38538D1F87354700B7C3E1 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = DE38538C1F87354700B7C3E1 /* Cartfile */; };
+		DE3853921F8736A200B7C3E1 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE38538F1F8736A200B7C3E1 /* RxBlocking.framework */; };
+		DE3853931F8736A200B7C3E1 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3853901F8736A200B7C3E1 /* RxCocoa.framework */; };
+		DE3853941F8736A200B7C3E1 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3853911F8736A200B7C3E1 /* RxSwift.framework */; };
+		DE3853971F87372400B7C3E1 /* RxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3853961F87372400B7C3E1 /* RxTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE3853811F87353A00B7C3E1 /* RxTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE3853841F87353A00B7C3E1 /* RxTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxTableViewCell.h; sourceTree = "<group>"; };
 		DE3853851F87353A00B7C3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE38538C1F87354700B7C3E1 /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
+		DE38538F1F8736A200B7C3E1 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		DE3853901F8736A200B7C3E1 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		DE3853911F8736A200B7C3E1 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		DE3853961F87372400B7C3E1 /* RxTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxTableViewCell.swift; sourceTree = "<group>"; };
+		DE3853981F8738F600B7C3E1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DE3853991F873AAF00B7C3E1 /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +33,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3853921F8736A200B7C3E1 /* RxBlocking.framework in Frameworks */,
+				DE3853931F8736A200B7C3E1 /* RxCocoa.framework in Frameworks */,
+				DE3853941F8736A200B7C3E1 /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -30,8 +45,12 @@
 		DE3853771F87353A00B7C3E1 = {
 			isa = PBXGroup;
 			children = (
+				DE3853991F873AAF00B7C3E1 /* LICENSE.md */,
+				DE3853981F8738F600B7C3E1 /* README.md */,
+				DE38538C1F87354700B7C3E1 /* Cartfile */,
 				DE3853831F87353A00B7C3E1 /* RxTableViewCell */,
 				DE3853821F87353A00B7C3E1 /* Products */,
+				DE38538E1F8736A200B7C3E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,9 +66,20 @@
 			isa = PBXGroup;
 			children = (
 				DE3853841F87353A00B7C3E1 /* RxTableViewCell.h */,
+				DE3853961F87372400B7C3E1 /* RxTableViewCell.swift */,
 				DE3853851F87353A00B7C3E1 /* Info.plist */,
 			);
 			path = RxTableViewCell;
+			sourceTree = "<group>";
+		};
+		DE38538E1F8736A200B7C3E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE38538F1F8736A200B7C3E1 /* RxBlocking.framework */,
+				DE3853901F8736A200B7C3E1 /* RxCocoa.framework */,
+				DE3853911F8736A200B7C3E1 /* RxSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +104,7 @@
 				DE38537D1F87353A00B7C3E1 /* Frameworks */,
 				DE38537E1F87353A00B7C3E1 /* Headers */,
 				DE38537F1F87353A00B7C3E1 /* Resources */,
+				DE3853951F8736AB00B7C3E1 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -95,6 +126,7 @@
 				TargetAttributes = {
 					DE3853801F87353A00B7C3E1 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -121,16 +153,40 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE38538D1F87354700B7C3E1 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DE3853951F8736AB00B7C3E1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxBlocking.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE38537C1F87353A00B7C3E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE3853971F87372400B7C3E1 /* RxTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +309,7 @@
 		DE38538A1F87353A00B7C3E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -260,12 +317,18 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxTableViewCell/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dforest.RxTableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -274,6 +337,7 @@
 		DE38538B1F87353A00B7C3E1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -281,8 +345,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxTableViewCell/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dforest.RxTableViewCell;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
