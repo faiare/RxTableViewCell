@@ -1,15 +1,17 @@
 language: objective-c 
 matrix:
     include:
-        - osx_image: xcode8.3
+        - osx_image: xcode9
 
 branches:
     only: master
 
 before_install:
-    - brew update
-    - brew install carthage
+    - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
     - carthage bootstrap --no-use-binaries --platform ios
 
 script:
-    - xcodebuild -sdk iphonesimulator | xcpretty -c
+    - xcodebuild -scheme RxTableViewCell  -sdk iphonesimulator | xcpretty -c
+
+notifications:
+    email: false
