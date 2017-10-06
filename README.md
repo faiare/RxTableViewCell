@@ -1,6 +1,7 @@
 #  RxTableViewCell
 
 [![Build Status](https://travis-ci.org/faiare/RxTableViewCell.svg?branch=master)](https://travis-ci.org/faiare/RxTableViewCell)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/faiare/RxTableViewCell)
 
 RxTableViewCell is a wrapper for UITableViewCell with DisposeBag for RxSwift.
 

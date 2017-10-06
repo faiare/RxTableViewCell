@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DE3853861F87353A00B7C3E1 /* RxTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = DE3853841F87353A00B7C3E1 /* RxTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE38538D1F87354700B7C3E1 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = DE38538C1F87354700B7C3E1 /* Cartfile */; };
 		DE3853921F8736A200B7C3E1 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE38538F1F8736A200B7C3E1 /* RxBlocking.framework */; };
 		DE3853931F8736A200B7C3E1 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3853901F8736A200B7C3E1 /* RxCocoa.framework */; };
 		DE3853941F8736A200B7C3E1 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE3853911F8736A200B7C3E1 /* RxSwift.framework */; };
@@ -153,7 +152,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE38538D1F87354700B7C3E1 /* Cartfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
