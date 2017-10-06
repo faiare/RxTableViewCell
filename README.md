@@ -1,6 +1,6 @@
 #  RxTableViewCell
 
-![Badge Status](https://travis-ci.org/faiare/RxTableViewCell)
+[![Build Status](https://travis-ci.org/faiare/RxTableViewCell.svg?branch=master)](https://travis-ci.org/faiare/RxTableViewCell)
 
 RxTableViewCell is a wrapper for UITableViewCell with DisposeBag for RxSwift.
 
