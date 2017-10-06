@@ -9,11 +9,11 @@
 import UIKit
 import RxSwift
 
-public class RxTableViewCell: UITableViewCell {
+open class RxTableViewCell: UITableViewCell {
     
-    private(set) var disposeBag = DisposeBag()
+    private(set) open var disposeBag = DisposeBag()
     
-    override public func prepareForReuse() {
+    override open func prepareForReuse() {
         super.prepareForReuse()
         disposeBag = DisposeBag()
     }
