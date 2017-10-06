@@ -9,7 +9,7 @@
 import UIKit
 import RxSwift
 
-class RxTableViewCell: UITableViewCell {
+public class RxTableViewCell: UITableViewCell {
     
     private(set) var disposeBag = DisposeBag()
     
