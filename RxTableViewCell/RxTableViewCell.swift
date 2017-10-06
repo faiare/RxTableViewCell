@@ -13,7 +13,7 @@ public class RxTableViewCell: UITableViewCell {
     
     private(set) var disposeBag = DisposeBag()
     
-    override func prepareForReuse() {
+    override public func prepareForReuse() {
         super.prepareForReuse()
         disposeBag = DisposeBag()
     }
